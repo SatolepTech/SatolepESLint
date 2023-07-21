@@ -5,6 +5,7 @@
   "author": "Bruno Ferraz Silveira",
   "description": "ESLint config to NextJS, NestJS and React Native",
   "license": "MIT",
+  "private": "false",
   "repository": {
     "url": "satolep/eslint"
   },
