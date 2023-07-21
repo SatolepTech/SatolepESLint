@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": "false",
   "repository": {
-    "url": "satolep/eslint"
+    "url": "SatolepTech/SatolepESLint"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
