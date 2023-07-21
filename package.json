@@ -1,11 +1,10 @@
 {
   "name": "@satolep/eslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "Bruno Ferraz Silveira",
   "description": "ESLint config to NextJS, NestJS and React Native",
   "license": "MIT",
-  "private": "false",
   "repository": {
     "url": "SatolepTech/SatolepESLint"
   },
