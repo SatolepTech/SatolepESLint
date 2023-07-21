@@ -1,0 +1,41 @@
+{
+  "extends": [
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "ignorePatterns": ["node_modules"],
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "rules": {
+        "no-shadow": "off",
+        "no-undef": "off"
+      }
+    }
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "root": true,
+  "rules": {
+    "arrow-body-style": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "arrowParens": "avoid",
+        "bracketSameLine": false,
+        "bracketSpacing": true,
+        "endOfLine": "auto",
+        "jsxSingleQuote": true,
+        "printWidth": 70,
+        "semi": false,
+        "singleQuote": true,
+        "tabWidth": 2,
+        "trailingComma": "none"
+      },
+      {
+        "usePrettierrc": false
+      }
+    ]
+  }
+}
