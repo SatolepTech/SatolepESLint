@@ -1,6 +1,5 @@
 module.exports = {
   extends: [
-    'next/core-web-vitals',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/errors',
     'plugin:import/recommended',
@@ -9,7 +8,6 @@ module.exports = {
     'plugin:react/recommended',
     'prettier'
   ],
-  formatter: 'eslint-formatter-pretty',
   ignorePatterns: ['node_modules', 'src/generated'],
   overrides: [
     {

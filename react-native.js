@@ -9,7 +9,6 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:react/recommended'
   ],
-  formatter: 'eslint-formatter-pretty',
   ignorePatterns: ['node_modules', 'src/generated'],
   overrides: [
     {

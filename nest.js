@@ -5,7 +5,6 @@ module.exports = {
     sourceType: 'module'
   },
   extends: ['plugin:@typescript-eslint/recommended'],
-  formatter: 'eslint-formatter-pretty',
   env: {
     node: true,
     jest: true
