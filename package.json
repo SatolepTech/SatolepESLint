@@ -1,6 +1,6 @@
 {
   "name": "@satolep/eslint",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "index.js",
   "author": "Bruno Ferraz Silveira",
   "description": "ESLint config to NextJS, NestJS and React Native",
