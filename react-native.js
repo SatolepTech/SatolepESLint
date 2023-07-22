@@ -21,6 +21,13 @@ module.exports = {
     }
   ],
   parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    },
+    ecmaVersion: 'latest',
+    sourceType: 'module'
+  },
   plugins: [
     '@typescript-eslint',
     'import',
@@ -94,5 +101,13 @@ module.exports = {
         argsIgnorePattern: '^_'
       }
     ]
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+    'import/parsers': {
+      [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts']
+    }
   }
 }
