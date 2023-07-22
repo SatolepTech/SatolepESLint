@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     '@react-native-community',
+    'standard',
     'prettier',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/errors',

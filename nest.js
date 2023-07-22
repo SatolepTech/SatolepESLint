@@ -4,7 +4,10 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  extends: ['plugin:@typescript-eslint/recommended'],
+  extends: [
+    'standard',
+    'plugin:@typescript-eslint/recommended'
+  ],
   env: {
     node: true,
     jest: true
