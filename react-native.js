@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
     '@react-native-community',
-    'standard',
     'prettier',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/errors',
@@ -10,6 +9,7 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:react/recommended'
   ],
+  formatter: 'eslint-formatter-pretty',
   ignorePatterns: ['node_modules', 'src/generated'],
   overrides: [
     {
@@ -105,10 +105,7 @@ module.exports = {
   },
   settings: {
     react: {
-      version: 'detect',
-    },
-    'import/parsers': {
-      [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts']
+      version: 'detect'
     }
   }
 }

@@ -4,10 +4,8 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  extends: [
-    'standard',
-    'plugin:@typescript-eslint/recommended'
-  ],
+  extends: ['plugin:@typescript-eslint/recommended'],
+  formatter: 'eslint-formatter-pretty',
   env: {
     node: true,
     jest: true
@@ -73,10 +71,5 @@ module.exports = {
     'sort-imports': 'off',
     'import/order': 'off',
     '@typescript-eslint/no-explicit-any': ['off']
-  },
-  settings: {
-    'import/parsers': {
-      [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts']
-    }
   }
 }
