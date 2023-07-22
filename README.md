@@ -26,8 +26,12 @@ yarn add -D eslint @satolep/eslint
 Inside `.eslintrc`
 ```
 {
-  "extends": "@satolep/eslint/next"
+  "extends": [
+    "./node_modules/@satolep/eslint/next", 
+    "next/core-web-vitals"
+  ]
 }
+
 ```
 
 ### NestJS
@@ -39,7 +43,7 @@ yarn add -D eslint @satolep/eslint
 Inside `.eslintrc`
 ```
 {
-  "extends": "@satolep/eslint/nest"
+  "extends": "./node_modules/@satolep/eslint/nest"
 }
 ```
 
@@ -52,6 +56,6 @@ yarn add -D eslint @satolep/eslint
 Inside `.eslintrc`
 ```
 {
-  "extends": "@satolep/eslint/react-native"
+  "extends": "./node_modules/@satolep/eslint/react-native"
 }
 ```
