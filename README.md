@@ -3,7 +3,7 @@
 ## Quais configurações estão inclusas?
 
 - Configurações gerais de ESLint:
-  - Plugin e parser d TypeScript;
+  - Plugin e parser do TypeScript;
   - Prettier;
   - Ordenação de imports;
   - Exclusão de imports desnecessários;
