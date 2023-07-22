@@ -21,7 +21,7 @@
 
 Install dependencies:
 ```
-yarn add -D eslint @satolep/eslint
+yarn add -D eslint eslint-config-next @satolep/eslint
 ```
 Inside `.eslintrc`
 ```
